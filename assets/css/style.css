@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/background_pattern.png");
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    box-sizing: content-box;
+}
+
+header nav {
+    max-width: 960px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+header nav h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    margin: 0;
+    height: inherit;
+    text-align: center;
+    line-height: 90px;
+    padding: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 90px;
+}
+
+nav ul li span {
+    margin: 0 10px;
+    color: #f2f2f2;
+}
+
+a:link {
+    color:#ccc;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#ccc;
+}
