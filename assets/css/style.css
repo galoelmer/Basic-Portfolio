@@ -2,18 +2,11 @@
 	box-sizing: border-box;
 }
 
-html {
-	height: 100%;
-}
-
 body {
 	margin: 0;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	background: url("../images/background_pattern.png");
 	overflow: auto;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
 	min-width: 960px;
 }
 
@@ -76,7 +69,6 @@ article {
 	border: 1px solid #ddd;
 	padding: 30px;
 	width: 960px;
-	flex: 1 0 auto;
 	margin: 30px auto 60px;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
@@ -156,4 +148,9 @@ footer {
 	font-size: 0.6em;
 	color: #ccc;
 	padding: 20px 0;
+	height: 80px;
+}
+
+.content-wrapper {
+	min-height: calc(100vh - 70px);
 }
