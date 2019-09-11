@@ -118,6 +118,29 @@ article hr {
 	height: 200px;
 }
 
+figure::after {
+	content: "Coming Soon";
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: #008cba;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 0.5s ease;
+	text-align: center;
+	line-height: 200px;
+	opacity: 0.9;
+	color: white;
+	font-weight: 700;
+}
+
+figure:hover::after {
+	bottom: 0;
+	height: 100%;
+}
+
 figcaption {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	position: absolute;
